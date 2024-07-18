@@ -1,0 +1,40 @@
+.popular-heading {
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: black;
+  align-self: flex-start;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.popular-container {
+  display: flex;
+
+  justify-content: center;
+  height: 80vh;
+  overflow-y: auto;
+}
+
+.width-container {
+  width: 90%;
+}
+
+.movies-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+@media screen and (max-width: 576px) {
+  .movies-container {
+    width: 100%;
+  }
+}
+.loader-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

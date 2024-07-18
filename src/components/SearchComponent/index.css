@@ -1,0 +1,27 @@
+.search-result-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 98%;
+  border-radius: 10px;
+}
+
+.results-home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: black;
+  width: 98%;
+  font-size: 18px;
+}
+
+*:hover {
+  color: black;
+}

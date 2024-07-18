@@ -1,0 +1,41 @@
+.movie-item {
+  list-style-type: none;
+  width: 200px;
+  min-height: 330px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #293030;
+  border-radius: 10px;
+}
+
+.text {
+  font-family: 'Roboto';
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+}
+
+.viewbutton {
+  border: none;
+  background-color: #3f69e8;
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+  margin: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .movie-item {
+    width: 35%;
+    flex-grow: 1;
+  }
+  .image {
+    width: 100%;
+  }
+}
