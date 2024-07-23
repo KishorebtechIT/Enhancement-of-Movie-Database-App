@@ -8,15 +8,7 @@ Develop an application based on video-on-demand websites that provides an extens
 
 <br/>
 ### List of Features
-
-#### Global Navbar:
-
-- Users should be able to see a navbar at the top of every page.
-- Users should be able to see the title “movieDB” at the left side of the navbar.
-- Users should be able to view navigation buttons, including Popular, Top Rated, and Upcoming, in the navbar.
-- Users should be able to navigate to Popular (`/`), Top Rated (`/top-rated`), and Upcoming (`/upcoming`) Routes by clicking on the respective buttons.
-- Users should be able to see a search bar and a search button inside the navbar, where they can enter their search queries.
-
+<br/>
 #### Popular Movies Page (Home Page):
 
 - Users should be able to view a grid of movie posters, arranged in multiple rows and columns, fetched from the **popular movies API**.
@@ -48,67 +40,10 @@ Develop an application based on video-on-demand websites that provides an extens
 - Users should be able to view a grid of movie posters, arranged in multiple rows and columns, fetched from the **searched movies API**.
 - Each movie poster should include an image of the movie, its name, its rating, and a `View Details` button.
 
-**Note:**
+**Enhanced Features:**
 
 - Every page should feature a global nav bar at the top.
 - Initially, users should be able to see the Popular Page (Home Page) upon accessing the website.
 - Each page corresponds to a different route.
-
-### Instructions:
-
-- Upload the project on Codesandbox (https://codesandbox.io/) and submit it using the code sandbox link. This is mandatory, without this, the submission will not be accepted.
-- The project must be responsive with decent CSS.
-- It is not necessary that the colors should match the images above. Use your imagination and try to make it as you like.
-- Pagination is required.
-- If you are a candidate with more than 6 months of experience then using Redux for state management purposes is a MUST.
-- If you are a fresher then can directly do API calls in the components themselves.
-- Make sure the components are reusable wherever possible.
-
-### API Details:
-
-- You should generate your own `API_KEY` by visiting https://www.themoviedb.org/documentation/api
-
-- Follow the below reference to build an image URL [https://developer.themoviedb.org/docs/image-basics](https://developer.themoviedb.org/docs/image-basics)
-
-### APIs
-
-- Get popular Movies:
-
-```api
-https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}&language=en-US&page=1
-```
-
-- Get Top Rated Movies:
-
-```api
-https://api.themoviedb.org/3/movie/top_rated?api_key=${API_KEY}&language=en-US&page=1
-```
-
-- Get Upcoming Movies:
-
-```api
-https://api.themoviedb.org/3/movie/upcoming?api_key=${API_KEY}&language=en-US&page=1
-```
-
-- Get Single Movie Details:
-
-```api
-https://api.themoviedb.org/3/movie/${MOVIE_ID}?api_key=${API_KEY}&language=en-US
-```
-
-- Get Movie Cast Details:
-
-```api
-https://api.themoviedb.org/3/movie/${MOVIE_ID}/credits?api_key=${API_KEY}&language=en-US
-```
-
-- Get Searched Movies:
-
-```api
-https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&language=en-US&query=${MOVIE_NAME}&page=1
-```
-
-<br/>
-**Note:** Make sure to replace `${API_KEY}`, `${MOVIE_ID}` and `${MOVIE_NAME}` with actual values when using these APIs.
-
+- Each page has pagination in  it's footer section
 
